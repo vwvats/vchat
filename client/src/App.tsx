@@ -1,9 +1,10 @@
-import React from "react";
+import { ChannelContainer, ChannelListContainer } from "./components";
 
 const App = () => {
   return (
     <div>
-      <h1>V Chat Application</h1>
+      <ChannelContainer />
+      <ChannelListContainer />
     </div>
   );
 };
